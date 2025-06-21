@@ -1,0 +1,53 @@
+:root {
+  --pri-color: #f9f7c9;
+  --sec-color: #d5f0c1;
+  --third-color: #aad9bb;
+  --fourth-color: #80bcbd;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.SideBaradmin-container {
+  background-color: #4f4f4f;
+  position: sticky;
+  top: 7rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-right: 2px solid black;
+  width: 10rem;
+  height: 92.5vh;
+}
+.nameadmin {
+  font-weight: 700;
+  background-color: black;
+  padding: 0.4rem;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: 2px solid var(--fourth-color);
+  color: var(--third-color);
+}
+.adminul {
+  display: flex;
+  gap: 0.3rem;
+  text-align: center;
+  margin-top: 1rem;
+  flex-direction: column;
+}
+.adminli {
+  color: var(--pri-color);
+  list-style: none;
+  padding: 0.3rem;
+  font-weight: 600;
+  border: 2px solid black;
+  box-shadow: inset 0 0 10px rgb(40, 39, 39);
+}
+.adminli:hover {
+  box-shadow: inset 0 0 10px rgb(230, 230, 230);
+}
+
+.active {
+  background-color: black;
+  color: var(--sec-color);
+  box-shadow: none;
+}
